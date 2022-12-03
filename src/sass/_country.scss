@@ -1,0 +1,22 @@
+.js-list {
+  list-style: none;
+}
+
+.country-list {
+  padding-top: 20px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.js-item__img {
+  width: 60px;
+  height: auto;
+}
