@@ -1,3 +1,4 @@
+import './sass/index.scss';
 import API from './fetchPokemon';
 import getRefs from './get-refs';
 const refs = getRefs();
