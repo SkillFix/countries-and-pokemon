@@ -2,7 +2,7 @@ import './sass/index.scss';
 import { fetchCountries } from './fetchCoutries';
 import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import getRefs from './get-refs';
+import getRefs from './get-refs.js';
 const refs = getRefs();
 
 const DEBOUNCE_DELAY = 300;
