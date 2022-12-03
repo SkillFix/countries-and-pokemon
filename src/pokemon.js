@@ -12,7 +12,7 @@ refs.inputEl.addEventListener('keydown', e => {
 });
 
 function onSearch(e) {
-  inputValue = refs.inputEl.value;
+  const inputValue = refs.inputEl.value;
 
   API.fetchPokemon(inputValue)
     .then(renderPokemonCard)
