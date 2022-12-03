@@ -1,4 +1,4 @@
-export default refs = () => {
+export default function refs() {
   return {
     cardContainer: document.querySelector('.js-card-container'),
     searchForm: document.querySelector('.btn'),
@@ -6,4 +6,4 @@ export default refs = () => {
     countryList: document.querySelector('.country-list'),
     countryInfo: document.querySelector('.country-info'),
   };
-};
+}
